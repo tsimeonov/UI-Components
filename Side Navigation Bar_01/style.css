@@ -115,6 +115,13 @@ body {
   pointer-events: none;
 }
 
+.sidebar-nav .nav-tooltip {
+  color: #151a2d;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
 .sidebar-nav .secondary-nav {
   position: absolute;
   bottom: 30px;
