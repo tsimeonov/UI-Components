@@ -124,6 +124,8 @@ body {
   position: absolute;
   left: calc(100% + 25px);
   top: -10px;
+  opacity: 0;
+  pointer-events: none;
   color: #151a2d;
   padding: 6px 12px;
   border-radius: 8px;
