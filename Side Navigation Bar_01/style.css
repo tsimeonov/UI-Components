@@ -93,6 +93,7 @@ body {
 .sidebar-nav .nav-link {
   display: flex;
   gap: 12px;
+  white-space: nowrap;
   align-items: center;
   padding: 12px 15px;
   color: #fff;
