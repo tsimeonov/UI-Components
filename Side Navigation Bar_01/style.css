@@ -134,6 +134,13 @@ body {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
+.sidebar-nav .nav-item:hover .nav-tooltip {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(50%);
+  transition: 0.4s ease;
+}
+
 .sidebar-nav .secondary-nav {
   position: absolute;
   bottom: 30px;
