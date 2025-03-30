@@ -166,7 +166,7 @@ body {
     margin: 13px;
     scrollbar-width: none;
     max-height: calc(100vh - 28px);
-    width: calc(100%, -28px);
+    width: calc(100% - 28px);
   }
 
   .sidebar-header {
