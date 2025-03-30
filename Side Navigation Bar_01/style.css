@@ -185,6 +185,8 @@ body {
 
   .sidebar-header .menu-toggler {
     display: flex;
+    height: 30px;
+    width: 30px;
   }
 
   .sidebar-nav .nav-list {
