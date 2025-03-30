@@ -3,7 +3,7 @@ const sidebarToggler = document.querySelector(".sidebar-toggler");
 const menuToggler = document.querySelector(".menu-toggler");
 
 const collapsedSidebarHeight = "56px";
-const fullSidebarHeight = "";
+const fullSidebarHeight = "calc(100vh - 32px)";
 
 // Toggle sidebar's collapsed state
 sidebarToggler.addEventListener("click", () => {
