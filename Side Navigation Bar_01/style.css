@@ -161,7 +161,11 @@ body {
 
 @media (max-width: 1024px) {
   .sidebar {
+    height: 56px;
+    overflow-y: hidden;
     margin: 13px;
+    scrollbar-width: none;
+    max-height: calc(100vh - 28px);
     width: calc(100%, -28px);
   }
 
