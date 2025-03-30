@@ -171,4 +171,10 @@ body {
     width: 40px;
     height: 40px;
   }
+
+  .sidebar-nav .nav-link {
+    gap: 10px;
+    padding: 10px;
+    font-size: 0.94rem;
+  }
 }
