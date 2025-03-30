@@ -9,10 +9,14 @@ sidebarToggler.addEventListener("click", () => {
   sidebar.classList.toggle("collapsed");
 });
 
+// Update sidebar height and menu toggle text
 const toggleMenu = (isMenuActive) => {
   sidebar.style.height = isMenuActive
     ? `${sidebar.scrollHeight}px`
     : collapsedSidebarHeight;
+  menuToggler.querySelector("span").innerText = isMenuActive
+    ? "active"
+    : "menu";
 };
 
 menuToggler.addEventListener("click", () => {
