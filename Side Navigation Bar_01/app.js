@@ -6,3 +6,7 @@ const menuToggler = document.querySelector(".menu-toggler");
 sidebarToggler.addEventListener("click", () => {
   sidebar.classList.toggle("collapsed");
 });
+
+menuToggler.addEventListener("click", () => {
+  toggleMenu();
+});
