@@ -43,7 +43,7 @@ body {
   border-radius: 50%;
 }
 
-.sidebar-header .sidebar-toggler {
+.sidebar-header .toggler {
   position: absolute;
   right: 20px;
   height: 35px;
