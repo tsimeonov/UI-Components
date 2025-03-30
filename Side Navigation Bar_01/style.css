@@ -153,4 +153,8 @@ body {
 }
 
 @media (max-width: 1024px) {
+  .sidebar {
+    margin: 13px;
+    width: calc(100%, -28px);
+  }
 }
