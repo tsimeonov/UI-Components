@@ -179,6 +179,10 @@ body {
     height: 40px;
   }
 
+  .sidebar-header .menu-toggler {
+    display: flex;
+  }
+
   .sidebar-nav .nav-list {
     padding: 0 10px;
   }
